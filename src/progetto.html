@@ -1,0 +1,577 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="IT">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Diari di Emanuele Artom</title>
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script;family=Red+Hat+Display;family=Tajawal:wght@300;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"><script src="https://code.jquery.com/jquery-3.6.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><script src="progetto.js"></script><script src="script.js"></script><script src="bottoni.js"></script></head>
+   <body>
+      <header>
+         <div class="navbar"><a href="#autore">Autore</a><a href="#descrizione-fisica">Descrizione</a><div class="dropdown"><button class="dropbtn" onclick="location.href='#gallery';">Diario
+                  <i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="#gallery" onclick="currentSlide(1)">Pagina 9</a><a href="#gallery" onclick="currentSlide(2)">Pagina 10</a><a href="#gallery" onclick="currentSlide(3)">Pagina 11</a><a href="#gallery" onclick="currentSlide(4)">Pagina 12</a><a href="#gallery" onclick="currentSlide(5)">Pagina 13</a></div>
+            </div>
+            <div class="dropdown"><button class="dropbtn" onclick="location.href='#trascrizione';">Trascrizione
+                  <i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="#pagina-9">Pagina 9</a><a href="#pagina-10">Pagina 10</a><a href="#pagina-11">Pagina 11</a><a href="#pagina-12">Pagina 12</a><a href="#pagina-13">Pagina 13</a></div>
+            </div><a href="#bibliografia">Bibliografia</a><a href="#footer">Informazioni</a></div>
+         <div class="title">
+            <h1><em> Diari di Emanuele Artom </em></h1>
+            <h3><em> novembre 1943 - febbraio 1944 </em></h3>
+         </div>
+      </header>
+      <main id="main">
+         <section id="autore">
+            <div class="vita">
+               <div class="bio"><img alt="Emanuele Artom" src="img/foto1.jpg"><p><strong>Emanuele Artom</strong> (Aosta, 23 giugno 1915 – Torino, 7 aprile 1944) </p>
+               </div>
+               <div class="bioEA">
+                  <h2>Vita</h2>
+                  <p>Emanuele Artom nacque nel 1915 in una colta famiglia della borghesia ebraica torinese,
+                     figlio di Emilio Artom ed Amalia Segre Artom.<br>
+                     Studiò al liceo classico Massimo D'Azeglio e nel 1933 si iscrisse alla facoltà di
+                     lettere presso l'Università di Milano.<br>
+                     Tra i collaboratori del grande Dizionario enciclopedico Utet già dal 1935, nel novembre
+                     1937 si laureò in lettere e, in collaborazione con Guido Bonfiglioli, pubblicò il
+                     volume "Elena o della Parodia".<br>
+                     Qualche anno dopo, nel 1941 consegnò alle stampe la prima edizione dei "Principi di
+                     storia e cultura ebraica", più volte ristampato.<br>
+                     Antifascista, nel maggio 1943 Artom si iscrisse al Partito d'Azione. Dopo l'armistizio,
+                     con il nome di Eugenio Ansaldi, si arruolò tra i partigiani come delegato azionista
+                     in una brigata garibaldina di Barge. In seguito fu nominato commissario politico delle
+                     bande "Italia Libera" in Val Pellice e Val Germanasca.<br>
+                     Catturato dai fascisti nel marzo 1944, Emanuele Artom venne consegnato ai tedeschi
+                     e rinchiuso nelle Carceri Nuove di Torino. Morì qui nel 1944 a causa delle torture
+                     inflittegli.<br></p>
+               </div>
+            </div>
+         </section>
+         <section id="descrizione-fisica">
+            <div class="info">
+               <h2>Informazioni sulla fonte</h2>
+               <div class="infofonte">
+                  <table class="detail-list">
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Titolo</strong></span></td>
+                        <td class="detail-list-value"><span> Diario di Emanuele Artom </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Autore</strong></span></td>
+                        <td class="detail-list-value"><span> Emanuele Artom </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Lingua</strong></span></td>
+                        <td class="detail-list-value"><span> Italiano </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Collezione</strong></span></td>
+                        <td class="detail-list-value"><span> Fondo Emanuele Artom </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Manoscritto</strong></span></td>
+                        <td class="detail-list-value"><span>	b. 1, fasc. 9 </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Luogo di conservazione</strong></span></td>
+                        <td class="detail-list-value"><span> CDEC - Centro di Documentazione Ebraica Contemporanea </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Storia</strong></span></td>
+                        <td class="detail-list-value">
+                           <p> La prima parte comprende gli scritti autografi di Emanuele Artom redatti tra il 1
+                              gennaio 1940 e il 10 settembre 1943.
+                              La seconda parte comprende quelli redatti tra novembre 1943 e febbraio 1944 accompagnati
+                              dalla lettera originale della madre Amalia Segre Artom.
+                              </p>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="descrizione">
+               <h2>Descrizione fisica</h2>
+               <div class="desc">
+                  <table class="detail-list">
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Supporto</strong></span></td>
+                        <td class="detail-list-value"><span> Fogli di carta </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Quantità</strong></span></td>
+                        <td class="detail-list-value"> 171 pagine e 1 foglietto . 
+                            
+                           Il foglietto contiene la lettera originale della madre Amalia Segre Artom, la quale
+                           chiede che
+                           alla sua morte i diari del figlio vengano consegnati al CDEC per preservarne l'integrità.
+                           
+                           </td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Condizioni</strong></span></td>
+                        <td class="detail-list-value"><span> 
+                              Le pagine del diario sono pressoché in buone condizioni 
+                              </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Grafia</strong></span></td>
+                        <td class="detail-list-value"><span> Srittura a mano libera abbastanza leggibile.  Avendo scritto prevalentemente a matita,
+                              la grafia risulta in alcuni punti leggermente sbiadita </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Mani</strong></span></td>
+                        <td class="detail-list-value"><span>
+                              Il diario è stato scritto interamente dalla mano di  Emanuele Artom 
+                              </span></td>
+                     </tr>
+                     <tr class="detail-list-row">
+                        <td class="detail-list-name"><span><strong>Note</strong></span></td>
+                        <td class="detail-list-value"><span> I fogli sono strappati lateralmente, probabilmente strappati da un quaderno o da
+                              un taccuino </span></td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </section>
+         <section id="gallery">
+            <div class="slideshow-container">
+               <div class="mySlides"><img id="carosel-image" src="img/p09.jpeg"></div>
+               <div class="mySlides"><img id="carosel-image" src="img/p10.jpeg"></div>
+               <div class="mySlides"><img id="carosel-image" src="img/p11.jpeg"></div>
+               <div class="mySlides"><img id="carosel-image" src="img/p12.jpeg"></div>
+               <div class="mySlides"><img id="carosel-image" src="img/p13.jpeg"></div><a class="prev" onclick="plusSlides(-1)">❮</a><a class="next" onclick="plusSlides(1)">❯</a></div><br><div class="puntini"><span class="dot" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span><span class="dot" onclick="currentSlide(4)"></span><span class="dot" onclick="currentSlide(5)"></span></div>
+         </section>
+         <section id="visualizza">
+            <h2>Opzioni di visualizzazione</h2>
+            <div class="visualizza-body">
+               <div class="key">
+                  <h2>Parole chiave</h2>
+                  <div class="visualizza-btns"><input type="checkbox" id="nomiluogo">Luoghi</div>
+               </div>
+               <div class="edit">
+                  <h2> Interventi editoriali </h2>
+                  <div class="visualizza-btns"><input type="checkbox" id="abbreviazioni">Abbreviazioni<input type="checkbox" id="del">Cancellazioni<input type="checkbox" id="gap">Gap<input type="checkbox" id="reg">Normalizzazioni<input type="checkbox" id="add">Aggiunte<input type="checkbox" id="corr">Correzioni</div>
+               </div>
+            </div>
+         </section>
+         <section id="trascrizione">
+            <h2>Trascrizione</h2>
+            <div class="pages"> 
+               
+               <h3 id="pagina-9" class="section-title">
+                  Pagina 9</h3>
+               <span class="gap"><span class="gap">(?)</span></span> 
+               <br><span id="#p09_l1" class="row-number">1&nbsp; 
+                  </span>
+               perchè il concetto di opera d'arte non
+               <br><span id="#p09_l2" class="row-number">2&nbsp; 
+                  </span>
+               è definito e perchè non esistono dei cataloghi
+               <br><span id="#p09_l3" class="row-number">3&nbsp; 
+                  </span>
+               delle opere d'arte. A proposito di Ebrei
+               <reg><span class="reg"> ebrei</span></reg>,
+               <br><span id="#p09_l4" class="row-number">4&nbsp; 
+                  </span>
+               domani <span class="tooltip"><span class="abbr">G.</span><span class="ht"><a>G.</a><br> Non identificato </span></span> andrà a <span class="place">Torino</span> da <span class="tooltip"><span class="abbr">E.M</span><span class="ht"><a>E.M</a><br> Non identificato </span></span>
+               <br><span id="#p09_l5" class="row-number">5&nbsp; 
+                  </span>
+               che gli <del>dara</del> consegnerà alcune decine
+               <br><span id="#p09_l6" class="row-number">6&nbsp; 
+                  </span>
+               di migliaia di lire per la banda.
+               <br><span id="#p09_l7" class="row-number">7&nbsp; 
+                  </span>
+               Così questo bandierista emerito, questo
+               <br><span id="#p09_l8" class="row-number">8&nbsp; 
+                  </span>
+               venduto a <span class="tooltip">Mussolini<span class="ht"><a>
+                        					        
+                        							 Benito 
+                        							 Mussolini 
+                        						</a><br>Nascita: Dovia di Predappio, 29 luglio 1883<br>Morte: Giulino di Mezzegra, 28 aprile 1945<br></span></span>, cerca di rifarsi
+               <br><span id="#p09_l9" class="row-number">9&nbsp; 
+                  </span>
+               la verginità sacrificando un po'
+               <br><span id="#p09_l10" class="row-number">10&nbsp; 
+                  </span>
+               del suo denaro per salvare il resto.
+               <br><span id="#p09_l11" class="row-number">11&nbsp; 
+                  </span>
+               Si possono accettare i suoi soldi ri =
+               <br><span id="#p09_l12" class="row-number">12&nbsp; 
+                  </span>
+               petendo quanto diceva <span class="tooltip">Vespasiano<span class="ht"><a>
+                        					        
+                        							Cesare Vespasiano Augusto
+                        						</a><br>Nascita: Cittareale, 17 novembre 9<br>Morte: Cotilia, 23 giugno 79<br></span></span>:
+               <br><span id="#p09_l13" class="row-number">13&nbsp; 
+                  </span>
+               non olent
+               <corr><span class="corr"> pecunia non olet</span></corr>. Ad ogni modo meglio della
+               <br><span id="#p09_l14" class="row-number">14&nbsp; 
+                  </span>
+               signora <span class="tooltip"><span class="abbr">L</span><span class="ht"><a>L</a><br> Non identificato </span></span> sfollata a <span class="place">Torre Pellice</span>,
+               <br><span id="#p09_l15" class="row-number">15&nbsp; 
+                  </span>
+               che un mese fa mi diceva di non
+               <br><span id="#p09_l16" class="row-number">16&nbsp; 
+                  </span>
+               voler dar nulla perché il comitato
+               <br><span id="#p09_l17" class="row-number">17&nbsp; 
+                  </span>
+               è ricco a milioni - non si avevano
+               <br><span id="#p09_l18" class="row-number">18&nbsp; 
+                  </span>
+               poche migliaia di lire per pagare
+               <br><span id="#p09_l19" class="row-number">19&nbsp; 
+                  </span>
+               le patate - e mi consigliava di non
+               <br><span id="#p09_l20" class="row-number">20&nbsp; 
+                  </span>
+               espormi per non far danno agli
+               <br><span id="#p09_l21" class="row-number">21&nbsp; 
+                  </span>
+               Ebrei
+               <reg><span class="reg"> ebrei</span></reg>. A proposito ancora di
+               
+               
+               <h3 id="pagina-10" class="section-title">
+                  Pagina 10</h3>
+               <br><span id="#p10_l1" class="row-number">1&nbsp; 
+                  </span>
+               Ebrei
+               <reg><span class="reg"> ebrei</span></reg>, l'altra sera ho avuto una
+               	            <br><span id="#p10_l2" class="row-number">2&nbsp; 
+                  </span>
+               	            lunga conversazione sull'Ebraismo
+               <reg><span class="reg"> ebraismo</span></reg>
+               	            <br><span id="#p10_l3" class="row-number">3&nbsp; 
+                  </span>
+               	            con quell'antisemita di <span class="tooltip">Tramalino<span class="ht"><a>Tramalino</a><br> Non identificato </span></span>.
+               	            <br><span id="#p10_l4" class="row-number">4&nbsp; 
+                  </span>
+               	            <del>Per una strana nemesi</del> È uno di
+               	            <br><span id="#p10_l5" class="row-number">5&nbsp; 
+                  </span>
+               	            quegli Ebrei
+               <reg><span class="reg"> ebrei</span></reg> che odiano l'Ebraismo,
+               <reg><span class="reg"> ebraismo</span></reg>
+               	            <br><span id="#p10_l6" class="row-number">6&nbsp; 
+                  </span>
+               	            ma per una strana Nemesi
+               <reg><span class="reg"> nemesi</span></reg> ha tutti i
+               	            <br><span id="#p10_l7" class="row-number">7&nbsp; 
+                  </span>
+               	            difetti che rendono tradizional =
+               	            <br><span id="#p10_l8" class="row-number">8&nbsp; 
+                  </span>
+               	            mente antipatico l'Ebreo:
+               <reg><span class="reg"> ebreo</span></reg> è pigro,
+               	            <br><span id="#p10_l9" class="row-number">9&nbsp; 
+                  </span>
+               	            sofistico e trasandato. Quando può
+               				<br><span id="#p10_l10" class="row-number">10&nbsp; 
+                  </span>
+               				dare torto ad uno è felice e se
+               				<br><span id="#p10_l11" class="row-number">11&nbsp; 
+                  </span>
+               				coglie in errore chi parla con lui -
+               				<br><span id="#p10_l12" class="row-number">12&nbsp; 
+                  </span>
+               				giacché discute sempre ed è sempre
+               				<br><span id="#p10_l13" class="row-number">13&nbsp; 
+                  </span>
+               				di parere contrario - il suo viso si
+               				<br><span id="#p10_l14" class="row-number">14&nbsp; 
+                  </span>
+               <del>illumina di un</del> sorride maligno e
+               				<br><span id="#p10_l15" class="row-number">15&nbsp; 
+                  </span>
+               				soddisfatto. Per questo una sera
+               				<br><span id="#p10_l16" class="row-number">16&nbsp; 
+                  </span>
+               				<span class="tooltip">Nipro<span class="ht"><a>Nipro</a><br> Non identificato </span></span> mi disse: l'altro giorno
+               				<br><span id="#p10_l17" class="row-number">17&nbsp; 
+                  </span>
+               				l'ho chiamato <span class="tooltip">Samuelino<span class="ht"><a>Tramalino</a><br> Non identificato </span></span> perché
+               				<br><span id="#p10_l18" class="row-number">18&nbsp; 
+                  </span>
+               è <del>antipatico;</del><add><span class="add"> odioso;</span></add> te o <span class="tooltip"><span class="abbr">G</span><span class="ht"><a>G.</a><br> Non identificato </span></span> non oserei mai
+               <br><span id="#p10_l19" class="row-number">19&nbsp; 
+                  </span>
+               chiamare così perché siete
+               <br><span id="#p10_l20" class="row-number">20&nbsp; 
+                  </span>
+               simpatici. Gli risposi piuttosto
+               
+               
+               <h3 id="pagina-11" class="section-title">
+                  Pagina 11</h3>
+               <br><span id="#p11_l1" class="row-number">1&nbsp; 
+                  </span>
+               seccato che l<del>a</del>' origine dell'antisemitismo
+               <br><span id="#p11_l2" class="row-number">2&nbsp; 
+                  </span>
+               sta appunto nel rilevare i caratteri degli
+               <br><span id="#p11_l3" class="row-number">3&nbsp; 
+                  </span>
+               Ebrei
+               <reg><span class="reg"> ebrei</span></reg> solo quando <del>sono spia</del> dispiacciono
+               <br><span id="#p11_l4" class="row-number">4&nbsp; 
+                  </span>
+               e che mi pareva molto strano trovare un
+               <br><span id="#p11_l5" class="row-number">5&nbsp; 
+                  </span>
+               seguace di <span class="tooltip">Hitler<span class="ht"><a>
+                        					        
+                        							 Adolf 
+                        							 Hitler 
+                        						</a><br>Nascita: Braunau am Inn, 20 aprile 1889<br>Morte: Berlino, 30 aprile 1945<br></span></span> nell'esercito che
+               <br><span id="#p11_l6" class="row-number">6&nbsp; 
+                  </span>
+               combatte il nazismo. Quest'oggi  la
+               <br><span id="#p11_l7" class="row-number">7&nbsp; 
+                  </span>
+               signora <span class="tooltip"><span class="abbr">S</span><span class="ht"><a>S</a><br> Non identificato </span></span> ha fatto una sciocchezza e
+               <br><span id="#p11_l8" class="row-number">8&nbsp; 
+                  </span>
+               <span class="tooltip"><span class="abbr">G.</span><span class="ht"><a>G.</a><br> Non identificato </span></span> ha reagito con una scena scanda =
+               <br><span id="#p11_l9" class="row-number">9&nbsp; 
+                  </span>
+               losa; tra l'altro le ha detto: se
+               <br><span id="#p11_l10" class="row-number">10&nbsp; 
+                  </span>
+               ti <del>si</del> apriss<del>e</del><add><span class="add">i</span></add> la testa, invece del cer =
+               <br><span id="#p11_l11" class="row-number">11&nbsp; 
+                  </span>
+               vello si troverebbe una materia
+               <br><span id="#p11_l12" class="row-number">12&nbsp; 
+                  </span>
+               completamente diversa e studiandola
+               <br><span id="#p11_l13" class="row-number">13&nbsp; 
+                  </span>
+               potrei <del>fare </del><add><span class="add">preparare</span></add> una pubblicazione per
+               <br><span id="#p11_l14" class="row-number">14&nbsp; 
+                  </span>
+               divenire professore di <del>u</del><add><span class="add">U</span></add>niversità.
+               <br><span id="#p11_l15" class="row-number">15&nbsp; 
+                  </span>
+               Ora mi pare che non stia bene fare
+               <br><span id="#p11_l16" class="row-number">16&nbsp; 
+                  </span>
+               dell'umorismo sul contenuto
+               <br><span id="#p11_l17" class="row-number">17&nbsp; 
+                  </span>
+               nel cranio della propria madre.
+               
+               
+               <h3 id="pagina-12" class="section-title">
+                  Pagina 12</h3>
+               <br><span id="#p12_l1" class="row-number">1&nbsp; 
+                  </span>
+               			    <span class="abbr">23 nov </span><span class="expan">23 novembre 1943</span>
+               	            <br><span id="#p12_l2" class="row-number">2&nbsp; 
+                  </span>
+               	            Stamane mi svegliai tormentato dai rimorsi per
+               	            <br><span id="#p12_l3" class="row-number">3&nbsp; 
+                  </span>
+               	            il mio contegno verso la famiglia. Mi sono sa =
+               	            <br><span id="#p12_l4" class="row-number">4&nbsp; 
+                  </span>
+               	            crificato per qualche mese restando a <span class="place">Mo =
+                  	            <br><span id="#p12_l5" class="row-number">5&nbsp; 
+                     </span>
+                  	            riondo</span>, ma da aprile in poi ho seguito una
+               	            <br><span id="#p12_l6" class="row-number">6&nbsp; 
+                  </span>
+               	            via <del>egoi</del> personale, prima nel fidanzamento
+               	            <br><span id="#p12_l7" class="row-number">7&nbsp; 
+                  </span>
+               	            con <span class="tooltip"><span class="abbr">M</span><span class="ht"><a>M</a><br> Non identificato </span></span> e poi venendo qui. Per la strada ho in =
+               	            <br><span id="#p12_l8" class="row-number">8&nbsp; 
+                  </span>
+               	            contrato un giovane, certo <span class="tooltip"><span class="abbr">S</span><span class="ht"><a>S</a><br> Non identificato </span></span>, che mi chiese
+               	            <br><span id="#p12_l9" class="row-number">9&nbsp; 
+                  </span>
+               	            un appuntamento per stasera alle 9 e 30, a cui
+               				<br><span id="#p12_l10" class="row-number">10&nbsp; 
+                  </span>
+               			    avrebbe partecipato anche un certo <span class="tooltip"><span class="abbr">P.Z.</span><span class="ht"><a>P.Z.</a><br> Non identificato </span></span>,
+               				<br><span id="#p12_l11" class="row-number">11&nbsp; 
+                  </span>
+               				raccomandandomi di non parlare con
+               				<br><span id="#p12_l12" class="row-number">12&nbsp; 
+                  </span>
+               			    nessuno e particolarmente col giovane <span class="tooltip"><span class="abbr">F.</span><span class="ht"><a>F.</a><br> Non identificato </span></span>,
+               				<br><span id="#p12_l13" class="row-number">13&nbsp; 
+                  </span>
+               			    spiegandomi che si trattava di un complicato
+               				<br><span id="#p12_l14" class="row-number">14&nbsp; 
+                  </span>
+               				strattagemma, che mi avrebbe poi spiegato.
+               				<br><span id="#p12_l15" class="row-number">15&nbsp; 
+                  </span>
+               				<span class="tooltip">Polibio<span class="ht"><a>
+                        					        
+                        							Polibio
+                        						</a><br>Nascita: Megalopoli, 206 a.C.<br>Morte: Grecia romana, 118 a.C.<br></span></span> cita un verso di <span class="tooltip">Stesicoro<span class="ht"><a>
+                        					        
+                        							Stesicoro
+                        						</a><br>Nascita: Himera, 630 a.C.<br>Morte: Catania, 555 a.C.<br></span></span> che io ho
+               				<br><span id="#p12_l16" class="row-number">16&nbsp; 
+                  </span>
+               			    così tradotto: Ricorda d’esser sobrio e diffi =
+               				<br><span id="#p12_l17" class="row-number">17&nbsp; 
+                  </span>
+               				dente, Le basi queste son dell'uom prudente.
+               			    <br><span id="#p12_l18" class="row-number">18&nbsp; 
+                  </span>
+               Ricordandomene risposi evasivamente che
+               <br><span id="#p12_l19" class="row-number">19&nbsp; 
+                  </span>
+               avrei dato una risposta e che per stasera
+               <br><span id="#p12_l20" class="row-number">20&nbsp; 
+                  </span>
+               non potevo, dopo di che corsi dal coman =
+               <br><span id="#p12_l21" class="row-number">21&nbsp; 
+                  </span>
+               dante <span class="tooltip">al Mal<span class="ht"><a>al Mal</a><br> Non identificato </span></span>. Questi mi disse di fidarmi e
+               <br><span id="#p12_l22" class="row-number">22&nbsp; 
+                  </span>
+               mi avvertì che mi avrebbe cercato
+               <br><span id="#p12_l23" class="row-number">23&nbsp; 
+                  </span>
+               una sede diversa dall'infermeria.
+               <br><span id="#p12_l24" class="row-number">24&nbsp; 
+                  </span>
+               Sono dieci o unici giorni che vivo
+               
+               
+               <h3 id="pagina-13" class="section-title">
+                  Pagina 13</h3>
+               <br><span id="#p13_l1" class="row-number">1&nbsp; 
+                  </span>
+               qui in paese incontrando forti spese,
+               <add><span class="add"> vivendo scomodo </span></add><del>ma </del><add><span class="add">e</span></add>
+               <br><span id="#p13_l2" class="row-number">2&nbsp; 
+                  </span>
+               concludendo poco. Questo <span class="tooltip">Barbato<span class="ht"><a>Barbato</a><br> Non identificato </span></span> è un
+               <br><span id="#p13_l3" class="row-number">3&nbsp; 
+                  </span>
+               uomo coraggioso e intelligente, come ha
+               <br><span id="#p13_l4" class="row-number">4&nbsp; 
+                  </span> 
+               mostrato nel <del>colpo di <span class="gap"><span class="gap">(?)</span></span></del> colpo
+               <br><span id="#p13_l5" class="row-number">5&nbsp; 
+                  </span>
+               di <span class="tooltip"><span class="abbr">N.</span><span class="ht"><a>N.</a><br> Non identificato </span></span>, ma mi pare poco pratico,
+               <br><span id="#p13_l6" class="row-number">6&nbsp; 
+                  </span>
+               come risulta dalla spedizione di <span class="place">Oncino</span>.
+               <br><span id="#p13_l7" class="row-number">7&nbsp; 
+                  </span>
+               Sento in <del>tutti </del><add><span class="add">molti</span></add> un certo malcontento verso
+               <br><span id="#p13_l8" class="row-number">8&nbsp; 
+                  </span>
+               di lui. L'indisciplina dei soldati au =
+               <br><span id="#p13_l9" class="row-number">9&nbsp; 
+                  </span>
+               menta. <span class="gap"><span class="gap">(?)</span></span> Soffrono il freddo, prote =
+               <br><span id="#p13_l10" class="row-number">10&nbsp; 
+                  </span>
+               stano, rispondono male ai superiori.
+               <br><span id="#p13_l11" class="row-number">11&nbsp; 
+                  </span>
+               Nei giorni che ero stato sopra avevo no =
+               <br><span id="#p13_l12" class="row-number">12&nbsp; 
+                  </span>
+               tato <del>un</del><add><span class="add">l</span></add>a generica cattiva educazione
+               <br><span id="#p13_l13" class="row-number">13&nbsp; 
+                  </span>
+               propria delle caserme: per esempio <del>gli</del>
+               <br><span id="#p13_l14" class="row-number">14&nbsp; 
+                  </span>
+               
+               <add><span class="add">g</span></add>l<del>e</del><add><span class="add">i</span></add><del> ghiandole</del><add><span class="add"> organi</span></add> sessuali maschili erano
+               <br><span id="#p13_l15" class="row-number">15&nbsp; 
+                  </span>
+               citat<del>e</del><add><span class="add">i</span></add> troppo spesso e sempre a sproposito,
+               <br><span id="#p13_l16" class="row-number">16&nbsp; 
+                  </span>
+               ma ora il fenomeno diventa più grave.
+               <br><span id="#p13_l17" class="row-number">17&nbsp; 
+                  </span>
+               La <span class="tooltip"><span class="abbr">G.</span><span class="ht"><a>G.</a><br> Non identificato </span></span>, che deve stare in infermeria,
+               <br><span id="#p13_l18" class="row-number">18&nbsp; 
+                  </span>
+               <del>ha espresso</del> rammarica che io non
+               <br><span id="#p13_l19" class="row-number">19&nbsp; 
+                  </span>
+               abiti con lei: <del>A</del>avrà due ragazzetti
+               <br><span id="#p13_l20" class="row-number">20&nbsp; 
+                  </span>
+               che le faranno i servizi pesanti, ma
+               <br><span id="#p13_l21" class="row-number">21&nbsp; 
+                  </span>
+               nessuno di cui possa veramente
+               <br><span id="#p13_l22" class="row-number">22&nbsp; 
+                  </span>
+               fidarsi in pieno. È una donna comu =
+               <br><span id="#p13_l23" class="row-number">23&nbsp; 
+                  </span>
+               nista. Ben vista da alcuni come <span class="tooltip"><span class="abbr">G</span><span class="ht"><a>G.</a><br> Non identificato </span></span>, male
+               <br><span id="#p13_l24" class="row-number">24&nbsp; 
+                  </span>
+               da altri non so se per misoginia, per
+               <span class="gap"><span class="gap">(?)</span></span> 
+               </div>
+         </section>
+         <section id="bibliografia">
+            <h2>Bibliografia</h2>
+            <div class="biblio">
+               <div class="biblio">
+                  <ul><br><li> 
+                        Benvenuta 
+                        Treves
+                        ,
+                        <i>Tre vite. Dall'ultimo 800 ai primi del 900. Studi e memorie di Emilio, Emanuele, Ennio Artom</i>,
+                        Firenze,
+                        Casa editrice Israel,
+                        1954</li><br><li> 
+                        Paola 
+                        De Benedetti
+                        ,
+                         
+                        Eloisa 
+                        Ravenna
+                        ,
+                        <i> Diari: gennaio 1940 - febbraio 1944</i>,
+                        Milano,
+                        CDEC - Centro di Documentazione Ebraica Contemporanea,
+                        1966</li><br><li> 
+                        Guri 
+                        Schwarz
+                        ,
+                        <i>Diari di un partigiano ebreo: gennaio 1940 - febbraio 1944</i>,
+                        Torino,
+                        Bollati Boringhieri,
+                        2008</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section id="footer">
+            <h2>Informazioni sul progetto</h2>
+            <div class="footer-container">
+               <p> Edizione digitale -
+                  Aprile 2023 
+                  				
+                  <p> Progetto coordinato da  Angelo Mario Del Grosso </p>
+                  <p> Trascrizione e codifica di  Chiara Baiolo e Pasquale Ferrante </p>
+               </p>
+               <p> Le pagine del diario di Emanuele Artom sono state codificate rispettando le linee
+                  guide della TEI (Text Encoding Initiative) </p>
+            </div>
+         </section>
+         <div id="top">Torna su</div>
+      </main>
+   </body>
+</html>

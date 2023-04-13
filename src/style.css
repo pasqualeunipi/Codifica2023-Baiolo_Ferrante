@@ -1,0 +1,502 @@
+/* body */
+body {
+	margin: 0;
+    padding: 0;
+	background-color:#c3c3c3;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+/* Navbar container */
+.navbar {
+	top:0;
+	height: 70px;
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+	align-items: center;
+}
+
+.navbar a {	
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.navbar a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+	font-size: 20px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: 'Red Hat Display', sans-serif;
+	margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: rgba(51, 51, 51, 0.664);
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+  
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* titolo */
+.title{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-family: 'Dancing Script', 'cursive';
+	font-size: 1.6em;
+}
+.title h1{
+	text-align: center;
+	/*font-size: 2.2em;*/
+}
+
+.title h3 {
+	text-align: center;
+	/*font-size: 1.5em;*/
+	margin-top: -15px;
+}
+
+/* imm+vita */
+.vita {
+	box-sizing: border-box;
+	display: flex;
+	align-content: center;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.vita .bioEA {
+	text-align: left;
+	position: relative;
+	margin: 50px;
+}
+
+.vita .bioEA p{
+	font-family: 'Tajawal', sans-serif;
+}
+
+.vita .bioEA h2{
+	text-align: center;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.8em;
+}
+
+.vita .bio {
+	margin: 50px;
+	text-align: center;
+}
+
+.vita .bio p {
+	font-family: 'Tajawal', sans-serif;
+}
+
+#descrizione-fisica {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#descrizione-fisica .info h2 {
+	margin-top:0px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.8em;
+	
+}
+
+#descrizione-fisica .descrizione h2 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.8em;
+}
+
+
+.detail-list{
+	font-family: 'Tajawal', sans-serif;
+}
+
+#trascrizione {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+
+#trascrizione h2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.8em;
+}
+
+
+/*gallery*/
+#gallery {
+ padding-top: 50px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ height: 750px;
+ position:relative;
+}
+
+
+#carosel-image {
+	width: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width:45%;
+  max-height: 250px;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  font-size: 11px;
+  background-color: #545454;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  /*border-radius: 3px 0 0 3px;*/
+}
+.prev {
+	left:0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #333;
+}
+
+.puntini{
+	position:absolute;
+	bottom: -0.3rem;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #898989;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #404040;
+}
+
+
+.row-number {
+	text-align: justify;
+	font-size: 18px;
+	background-color: #c3c3c3;
+}
+
+ /* tooltip */
+ .tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .ht {
+	visibility:hidden;
+	width: 150px;
+	background-color: rgb(158, 202, 219);
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 5px 0;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	padding: 3px 6px;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px;
+  }
+  
+  .tooltip:hover .ht {
+	visibility: visible;
+  }
+
+/*footer*/
+#footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+	padding: 30px 15px;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+#footer h2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.5em;
+}
+
+#footer p {
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+
+#top { /*bottone torna su */
+	display: none;
+	position: fixed;
+	cursor:pointer;
+	padding: 13px;
+	right: 50px;
+	bottom: 50px;
+	z-index: 5;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	font-size: 13pt;
+	text-transform: uppercase;
+	font-family: 'Tajawal', sans-serif;
+  }
+
+  /*pulsanti colori*/
+#gap:hover, #gap:checked  {
+    background-color: red;
+    color: red;
+  }
+ 
+  #reg:hover, #reg:checked { /*ok*/
+    background-color: #FFA500;
+    color: #FFA500;
+  }
+
+
+  #add:hover, #add:checked { /*ok*/
+    background-color: #32f3d3;
+    color: #32f3d3;
+  }
+  #corr:hover, #corr:checked { /*ok*/
+    background-color: #E389B9;
+    color: #E389B9;
+  }
+ 
+ 
+  #expan:hover {
+    background-color: black;
+    color: black;
+  }
+ 
+
+  #nomiluogo:hover, #nomiluogo:checked {
+    background-color: #29df41;
+    color: #29df41;
+  }
+ 
+  #nomipersona:hover, #nomipersona:checked {
+	font-weight: bold;
+  }
+ 
+  #abbreviazioni:hover, #abbreviazioni:checked {
+    background-color: #3399FF;
+    color: #3399FF;
+   
+  }
+
+  #del:hover, #del:checked {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+ 
+ input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #666;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    border: 1px solid #696969;
+	margin-right: 8px;
+	margin-left: 8px;
+  }
+ 
+  input[type=checkbox]:checked::before {
+    position: absolute;
+    font: 13px/1 'Roboto', sans-serif;
+    left: 11px;
+    top: 7px;
+    content: '\02143';
+    transform: rotate(40deg);
+  }
+ 
+  input[type=checkbox]:checked {
+    background-color: #f1f1f1;
+  }
+ 
+ 
+.gaps {
+    display: none;
+  }
+ 
+ 
+ 
+  div.gaps {
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 10px;
+  }
+  #bottoni > div.gaps > label {
+    margin-right: 460px;
+  }
+  label.container {
+    margin-right: 30px;
+  }
+
+  .detail-list{
+	width: 100%;
+  }
+  .detail-list-name{
+	width: 10%;
+	white-space: pre-wrap;
+  }
+
+#visualizza{
+	width: 100%;
+	height: fit-content;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	background-color: #888;
+	padding-bottom: 50px;
+	margin-top:30px;
+}
+
+#visualizza h2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.5em;
+}
+
+.pages{
+	font-family: 'Tajawal', sans-serif;
+}
+
+.visualizza-body{
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.visualizza-btns{
+	font-family: 'Tajawal', sans-serif;
+}
+
+.key{
+	width: fit-content;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.edit{
+	width: fit-content;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.visualizza-btns{
+	display:flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+#bibliografia{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.biblio{
+	font-family: 'Tajawal', sans-serif;
+}
+
+#bibliografia h2{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.8em;
+}
+
+.bold {
+	font-weight: bold;
+}
